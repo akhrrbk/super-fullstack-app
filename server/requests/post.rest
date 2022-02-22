@@ -1,0 +1,7 @@
+POST http://localhost:8000/api/signup
+Content-Type: "Application/Json"
+
+{
+    "name": "Axror",
+    "email": "test@gmail.com"
+}

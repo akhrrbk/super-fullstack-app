@@ -1,0 +1,6 @@
+/server/.env
+/server/node_modules
+/app/.env
+/app/node_modules
+/app/build
+
