@@ -8,7 +8,10 @@ port = process.env.PORT || 8000
 app.use(express.json())
 app.use(cors())
 
-app.use('/api', require('./routes/api'))
+app.use('/api', require('./routes/signup'))
+app.use('/api', require('./routes/login'))
+app.use('/api', require('./routes/profile'))
+app.use('/', require('./routes/info'))
 
 app.get('/', (req,res) => {
     res.send('HomePage')
