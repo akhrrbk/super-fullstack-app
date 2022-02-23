@@ -2,7 +2,7 @@ const express = require('express')
 const infoRouter = express.Router()
 
 // info
-infoRouter.get('/info', (req, res) => {
+infoRouter.get('/api-huierbfywbevhbwel', (req, res) => {
     res.json([
         {
           "id":"1",

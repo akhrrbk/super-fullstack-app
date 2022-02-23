@@ -11,10 +11,10 @@ app.use(cors())
 app.use('/api', require('./routes/signup'))
 app.use('/api', require('./routes/login'))
 app.use('/api', require('./routes/profile'))
-app.use('/', require('./routes/info'))
+app.use('/', require('./routes/huierbfywbevhbwel'))
 
 app.get('/', (req,res) => {
-    res.send('HomePage')
+    res.send('HomePage: edited: 2x')
 })
 
 app.get('*', (req,res) => {
